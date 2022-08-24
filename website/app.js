@@ -3,7 +3,7 @@ const apiKey = "<key>&units=imperial";
 
 // Create a new date instance dynamically with JS
 let d = new Date();
-let newDate = d.getMonth()+'.'+ d.getDate()+'.'+ d.getFullYear();
+let newDate = (d.getMonth() + 1)+'.'+ d.getDate()+'.'+ d.getFullYear();
 
 let zip = document.getElementById('zip');
 let countryCode = document.getElementById('countryCode');
